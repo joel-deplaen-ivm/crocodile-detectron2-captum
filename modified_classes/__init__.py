@@ -1,5 +1,6 @@
 from modified_classes.modified_fast_rcnn_output_layers import ModifiedFastRCNNOutputLayers
 from modified_classes.modified_image_list import ModifiedImageList
-from modified_classes.modified_image_list import modified_MRCNN
+#from modified_classes.modified_mrcnn import ModifiedMaskRCNNOutputLayers
+from modified_classes.modified_mask_head import ModifiedMaskRCNNOutputLayers
 
-__all__ = ["ModifiedFastRCNNOutputLayers", "ModifiedImageList", "modified_MRCNN.py"]
+__all__ = ["ModifiedFastRCNNOutputLayers", "ModifiedImageList", "ModifiedMaskRCNNOutputLayers"]
